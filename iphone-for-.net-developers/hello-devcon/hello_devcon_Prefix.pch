@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'hello-devcon' target in the 'hello-devcon' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
