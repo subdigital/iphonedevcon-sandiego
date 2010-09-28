@@ -25,17 +25,16 @@
     }
     
     
-    DatabaseMigrator *migrator = [[DatabaseMigrator alloc] initWithDatabasePath:@"app.db" inDocumentsDirectory:YES];
-    
-    if(![migrator databaseExists]) {
-        [migrator createDatabase];
-    }
-    
-    [migrator runMigrations];
-    
-    [migrator release];
-    
-    
+	DatabaseMigrator *migrator = [[DatabaseMigrator alloc] initWithDatabasePath:@"accounts.db" 
+														   inDocumentsDirectory:YES];
+	
+	if(![migrator databaseExists]) {
+		[migrator createDatabase];
+	}
+	
+	[migrator runMigrations];
+	
+	
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
     return YES;

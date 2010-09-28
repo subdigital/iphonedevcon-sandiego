@@ -47,6 +47,8 @@
 		B51B36831246ABA40091B5DC /* DatabaseMigrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseMigrator.m; sourceTree = "<group>"; };
 		B51B36951246BC3C0091B5DC /* FileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileHelpers.h; path = Support/FileHelpers.h; sourceTree = "<group>"; };
 		B51B36961246BC3C0091B5DC /* FileHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileHelpers.m; path = Support/FileHelpers.m; sourceTree = "<group>"; };
+		B569790E1252B02500E00DF2 /* migration-3.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "migration-3.sql"; sourceTree = "<group>"; };
+		B569793F1252B1B700E00DF2 /* migration-4.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "migration-4.sql"; sourceTree = "<group>"; };
 		B571EE02124989B9004C66F8 /* migration-2.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "migration-2.sql"; sourceTree = "<group>"; };
 		B5C06491123878530011D9E2 /* sqlite_basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqlite_basics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C06494123878540011D9E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -118,6 +120,8 @@
 			children = (
 				B51B36751246AAAE0091B5DC /* migration-1.sql */,
 				B571EE02124989B9004C66F8 /* migration-2.sql */,
+				B569790E1252B02500E00DF2 /* migration-3.sql */,
+				B569793F1252B1B700E00DF2 /* migration-4.sql */,
 			);
 			name = Migrations;
 			sourceTree = "<group>";
